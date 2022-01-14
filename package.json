@@ -1,0 +1,37 @@
+{
+  "name": "zinccolors",
+  "description": "JS/CSS color variables for the monochromatic zinc/gray pallete",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "csso": "^5.0.2",
+    "param-case": "^3.0.4",
+    "picocolors": "^1.0.0",
+    "prettier": "^2.5.1",
+    "sizesnap": "^0.1.0"
+  },
+  "files": [
+    "css/",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "node generate.mjs",
+    "dev": "nodemon generate.mjs",
+    "prepublishOnly": "npm run build",
+    "size": "sizesnap",
+    "test": "echo 'done'"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "sizesnap": {
+    "files": [
+      "./css/*.css"
+    ]
+  }
+}

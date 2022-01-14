@@ -1,0 +1,12 @@
+{
+  "css/zinc.css": {
+    "size": "239B",
+    "brotli": "102B",
+    "gzip": "123B"
+  },
+  "css/zinc.min.css": {
+    "size": "195B",
+    "brotli": "85B",
+    "gzip": "114B"
+  }
+}
