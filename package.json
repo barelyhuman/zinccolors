@@ -1,7 +1,7 @@
 {
   "name": "zinccolors",
   "description": "JS/CSS color variables for the monochromatic zinc/gray pallete",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
