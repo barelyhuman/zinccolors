@@ -8,5 +8,15 @@
     "size": "195B",
     "brotli": "85B",
     "gzip": "114B"
+  },
+  "index.js": {
+    "size": "379B",
+    "brotli": "136B",
+    "gzip": "161B"
+  },
+  "roles.js": {
+    "size": "448B",
+    "brotli": "203B",
+    "gzip": "247B"
   }
 }

@@ -13,6 +13,7 @@
   },
   "files": [
     "css/",
+    "roles.js",
     "index.js"
   ],
   "scripts": {
@@ -31,7 +32,9 @@
   },
   "sizesnap": {
     "files": [
-      "./css/*.css"
+      "./css/*.css",
+      "index.js",
+      "roles.js"
     ]
   }
 }
